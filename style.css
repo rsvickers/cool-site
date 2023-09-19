@@ -2,6 +2,7 @@
 
 body {
     background-color: #061130;
+    margin: 0;
 }
 
 header {
@@ -16,6 +17,10 @@ nav {
     justify-content: space-between;
 }
 
+nav>button {
+    margin: 0 6px;
+}
+
 img {
     padding: 20px;
 }
@@ -23,12 +28,39 @@ img {
 button {
     color: white;
     background-color: #061130;
-    border-radius: 7px;
+    border-radius: 5px;
+    border: none;
     box-shadow: 10px #061130;
+    font-size: 1.2em;
+}
+
+main {
+    display: flex;
+    color: white;
+    justify-content: center;
+}
+
+h1 {
+    color: #FAFD61;
+    font-size: 1.5em;
+    margin-top: 4vh;
+}
+
+h2 {
+    font-size: 4em;
+}
+
+p {
+    font-size: 2em;
 }
 
 /* class selectors */
 
 .chat-button {
     background-color: #1C4BC4;
+}
+
+.hero {
+    max-width: 35%;
+    padding: 0 6px;
 }
