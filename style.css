@@ -3,6 +3,7 @@
 body {
     background-color: #061130;
     margin: 0;
+    font-family: Arial, Helvetica, sans-serif
 }
 
 header {
@@ -47,16 +48,28 @@ h2 {
     font-size: 4em;
 }
 
+h3 {
+    font-size: 2em;
+}
+
+h4 {
+    font-size: 1em;
+}
+
 p {
     font-size: 1.6em;
 }
 
 footer {
-    display: flex;
     background-color: white;
     margin-top: 7vh;
-    padding: 65px 80px;
     justify-content: space-evenly;
+}
+
+a {
+    display: flex;
+    font-size: 1.2em;
+
 }
 
 /* class selectors */
@@ -76,4 +89,19 @@ footer {
 
 .world {
     padding: 70px;
+}
+
+.middle {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 4em;
+}
+
+.bottom {
+    display: flex;
+    color: black;
+    background-color: #F4F6F8;
+    flex-direction: column;
+    align-items: center;
+
 }
