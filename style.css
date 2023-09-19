@@ -21,9 +21,6 @@ nav>button {
     margin: 0 6px;
 }
 
-img {
-    padding: 20px;
-}
 
 button {
     color: white;
@@ -51,7 +48,15 @@ h2 {
 }
 
 p {
-    font-size: 2em;
+    font-size: 1.6em;
+}
+
+footer {
+    display: flex;
+    background-color: white;
+    margin-top: 7vh;
+    padding: 65px 80px;
+    justify-content: space-evenly;
 }
 
 /* class selectors */
@@ -63,4 +68,12 @@ p {
 .hero {
     max-width: 35%;
     padding: 0 6px;
+}
+
+.logo {
+    padding: 20px;
+}
+
+.world {
+    padding: 70px;
 }
